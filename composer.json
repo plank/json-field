@@ -1,0 +1,42 @@
+{
+    "name": "hmayer/json-field",
+    "description": "Nova v4.x json field to spread a json column throughout multiple fields.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "nova",
+        "json"
+    ],
+    "authors": [
+        {
+            "name": "Henrique Mayer",
+            "email": "hmayer@gmail.com"
+        },
+        {
+            "name": "Artem Stepanenko",
+            "email": "stpnnk.artem@gmail.com"
+        },
+        {
+            "name": "Krishan Koenig",
+            "email": "krishan.koenig@googlemail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "laravel/nova": "^4.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../nova"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hmayer\\JsonField\\": "./src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
