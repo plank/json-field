@@ -24,7 +24,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "laravel/nova": "^4.0"
+        "laravel/nova": "^4.0|^5.0"
     },
     "repositories": [
         {
