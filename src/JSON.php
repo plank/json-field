@@ -1,6 +1,6 @@
 <?php
 
-namespace Hmayer\JsonField;
+namespace Plank\JsonField;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Resources\MergeValue;
@@ -13,7 +13,7 @@ use Laravel\Nova\Fields\Hidden;
 use Laravel\Nova\Fields\SupportsDependentFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Makeable;
-use Hmayer\JsonField\Exceptions\AttributeCast;
+use Plank\JsonField\Exceptions\AttributeCast;
 
 class JSON extends MergeValue
 {

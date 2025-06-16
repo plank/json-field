@@ -1,5 +1,5 @@
 {
-    "name": "hmayer/json-field",
+    "name": "plank/json-field",
     "description": "Nova v4.x json field to spread a json column throughout multiple fields.",
     "type": "package",
     "license": "MIT",
@@ -28,13 +28,13 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../nova"
+            "type": "composer",
+            "url": "https://nova.laravel.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Hmayer\\JsonField\\": "./src"
+            "Plank\\JsonField\\": "./src"
         }
     },
     "minimum-stability": "dev",

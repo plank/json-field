@@ -1,6 +1,6 @@
 <?php
 
-namespace Hmayer\JsonField\Exceptions;
+namespace Plank\JsonField\Exceptions;
 
 use Exception;
 

@@ -17,7 +17,7 @@ The above will be resolved into a single `author` attribute on the model.
 ```
 
 ## Install & setup
-`composer require hmayer/json-field`
+`composer require plank/json-field`
 
 Add the column's name, you want to use in the `JSON` field, to your `$casts` array on the resource's model!
 
@@ -41,7 +41,7 @@ Add the column's name, you want to use in the `JSON` field, to your `$casts` arr
 You can destructure one JSON column into multiple Nova fields and apply unique rules to each of the key-value pairs.
 
 ```php
-use Hmayer\JsonField\JSON;
+use Plank\JsonField\JSON;
 
 // within your nova resource
 public function fields()
